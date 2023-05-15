@@ -15,11 +15,16 @@ const Navbar = async () => {
 		Vastier&apos;s Home
 		</Link>
 
-		<div className='md:hidden'>
+		<div className='md:hidden flex gap-2 pr-4'>
 			<ThemeToggle />
+			<Link
+			href='https://flowcv.com/resume/pt8st9mski'
+			className={buttonVariants({ variant: 'default' })}>
+			Currículo
+			</Link>
 		</div>
 
-		<div className='hidden md:flex gap-4'>
+		<div className='hidden md:flex gap-4 pr-4'>
 			<ThemeToggle />
 			<Link
 			href='https://flowcv.com/resume/pt8st9mski'
