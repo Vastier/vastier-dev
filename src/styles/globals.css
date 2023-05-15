@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark .three-d {
+  text-shadow: 0px 5px 0px #235319;
+}
+.three-d {
+  text-shadow: 0px 5px 0px #d9f8c7;
+}
